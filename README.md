@@ -1,16 +1,79 @@
-# React + Vite
+🚀 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Movie & Manga Reader Manager provides users with a centralized platform to:
 
-Currently, two official plugins are available:
+Discover latest movies and watch official trailers
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Browse and read manga from multiple genres
 
-## React Compiler
+Stay updated with trending and popular content
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Enjoy a smooth and responsive user experience powered by external APIs
 
-## Expanding the ESLint configuration
+🧠 Key Features
+🎥 Movie Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fetches latest and trending movies using the TMDB API
+
+Displays:
+
+Movie posters
+
+Release dates
+
+Ratings
+
+Descriptions
+
+Integrated official movie trailers for quick viewing
+
+📖 Manga Reader & Browser
+
+Uses MangaDex API to:
+
+Browse a vast manga library
+
+Search manga by title
+
+Explore genres and popular manga
+
+Clean reading interface for manga chapters
+
+🔍 Search & Discovery
+
+Unified search for movies and manga
+
+Real-time API-based results
+
+Easy navigation between categories
+
+🎨 UI & UX
+
+Modern, responsive design
+
+Optimized for desktop and mobile
+
+Fast loading with efficient API handling
+
+🛠️ Tech Stack
+Frontend
+
+React
+
+Vite
+
+Tailwind CSS
+
+APIs Used
+
+TMDB API – movie data and trailers
+
+MangaDex API – manga catalog and chapters
+
+🔌 APIs Integration
+
+TMDB (The Movie Database)
+Provides movie metadata, trailers, ratings, and trending content.
+
+MangaDex
+Supplies manga information, chapters, and genre classifications.
